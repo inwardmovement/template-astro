@@ -1,1 +1,1 @@
-# template-astro
+# template-astro2
