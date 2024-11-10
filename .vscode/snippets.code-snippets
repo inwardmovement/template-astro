@@ -1,0 +1,5 @@
+{
+  "icon": {
+    "body": ["<span class=\"icon\">${1:close}</span>"],
+  },
+}

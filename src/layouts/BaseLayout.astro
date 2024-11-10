@@ -1,0 +1,34 @@
+---
+import "@assets/main.scss"
+
+const { title } = Astro.props
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <script>
+      // import 'bootstrap/js/dist/alert';
+      // import 'bootstrap/js/dist/button';
+      // import 'bootstrap/js/dist/carousel';
+      // import 'bootstrap/js/dist/collapse';
+      // import 'bootstrap/js/dist/dropdown';
+      // import 'bootstrap/js/dist/modal';
+      // import 'bootstrap/js/dist/offcanvas';
+      // import 'bootstrap/js/dist/popover';
+      // import 'bootstrap/js/dist/scrollspy';
+      // import "bootstrap/js/dist/tab"
+      // import 'bootstrap/js/dist/toast';
+      // import 'bootstrap/js/dist/tooltip';
+      import "@assets/main.js"
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
