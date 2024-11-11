@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "astro dev --open",
     "build": "astro build",
     "preview": "astro preview",
     "format:check": "prettier --check .",
